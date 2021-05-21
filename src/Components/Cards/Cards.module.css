@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(117, 233, 50) !important;
+    /* border:2px solid black; */
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    /* background-color: gray !important; */
+}
+
+.card{
+    margin: 0 2% !important;
+    
+}
+.infected{
+    /* border: 2px solid rgba(0,0,225,0.5); */
+    background-color: rgba(0,0,225,0.5);
+    width: 80% ;     
+    height: 2vh;
+
+}
+
+.recovered{
+    
+    background-color:rgba(0,225,0,0.5); ;
+    width: 80% ;     
+    height: 2vh;
+}
+
+.deaths{
+    
+    background-color: rgba(225,0,0,0.5);
+    width: 80% ;     
+    height: 2vh;
+}
+h1{
+    font-family: 'Goblin One', cursive;
+    font-size: 40px;
+}
+
+@media(max-width:850px){
+    h1{font-size: larger;}
+    .container{
+        width: 600px;
+        height: 100px;
+       
+
+       
+    }
+
+}
+
+@media(max-width:730px){
+    h1{font-size: larger;
+        top: 12%;
+    }
+    .container{
+        width: 500px;
+        height: 100px;
+       
+
+       
+    }
+
+}
+
+
+@media(max-width:625px){
+    h1{font-size: larger;
+        left: 34%;
+    }
+    .container{
+        display: block;
+        width: 60vw;
+        transition-duration: 0.3s;
+        height: 60vh;
+        
+    }
+    .infected{
+        width: 60%;
+        height: 2vh;
+    }
+
+    .recovered{
+        width: 60%;
+        height: 2vh;
+    }
+    .deaths{
+        width: 60%;
+        height: 2vh;
+    }
+
+}
+
+
+@media(max-width:390px){
+    h1{font-size: larger;
+        border: 2px solid red;
+
+    }
+    .container{
+        display: block;
+        width: 50vw;
+        transition-duration: 0.3s;
+        height: 65vh;
+        
+    }
+    .infected{
+        width: 60%;
+        height: 2vh;
+    }
+
+    .recovered{
+        width: 60%;
+        height: 2vh;
+    }
+    .deaths{
+        width: 60%;
+        height: 2vh;
+    }
+   
+
+}
+
+
+        
+    
+
+
+/* display: 'block',
+width: '30vw',
+transitionDuration: '0.3s',
+height: '45vw' */
+
+
+/* display: block;
+width: 60vw;
+transition-duration: 0.3s;
+height: 60vh; */
+
